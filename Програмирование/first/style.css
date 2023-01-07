@@ -1,0 +1,187 @@
+body {
+  background-color: #425489;
+}
+/* Заголовок */
+h1 {
+  margin: 0px;
+  padding: 10px;
+
+  color:#DCDCDC;
+  background:#708090;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+/* ОФормление страницы */
+.main {
+  background:#B0C4DE;
+  border-radius: 10px;
+  margin: 0px;
+  width: auto;
+
+
+
+}
+/* Форма изображений общая для всех страниц сайта */
+img {
+  margin: 14px;
+  border-radius:50px;
+  width: 300px;
+  height: 400px;
+}
+
+audio {
+  margin: 10px;
+}
+video {
+  margin: 10px;
+  width: 50%;
+
+}
+
+
+/*Параметры абзацев*/
+p {
+  margin: 20px;
+  font-weight: bold;
+  width: auto;
+  font-size: 20px;
+}
+/* Кнопки навигации по страницам сайта */
+button{
+  width: 200px;
+  height: 50px;
+  background:#FFE4E1;
+  /* #EEE8AA */
+  margin: 9px ;
+  font-size: 22px;
+  font-weight: bolder;
+  color: grey;
+}
+/* Форма страницы УДАЛЕНА */
+.form {
+  background: pink;
+  border-radius: 10px;
+}
+/* Тест страницы на которой только текст */
+.text  {
+  box-sizing: border-box;
+  color: black;
+  width: 100%;
+  height: auto;
+  border: solid 2px color #555;
+  border-radius: 10px;
+  background-color: #2F4F4F;
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-auto-rows: auto;
+  gap: auto;
+
+
+  /* display: flex;
+  flex-flow: wrap; */
+
+  justify-content: space-between;
+  align-items: flex-start ;
+
+
+
+  /* justify-content: center;
+  align-items: center;
+  display: flex; */
+
+
+  /* min-height: 100vh; */
+
+
+
+}
+.text1 {
+  border-radius: 5px;
+  border-color: black;
+  background-color: lightgrey;
+  width: auto;
+  margin: 10px;
+
+
+}
+.text2 {
+  border-radius: 5px;
+  border-color: black;
+  background-color: #ffddad;
+  width: auto;
+  margin: 10px
+}
+.text3 {
+  border-radius: 5px;
+  border-color: black;
+  background-color: lightblue;
+  width: auto;
+  margin: 10px
+}
+
+.games_btn {
+
+  width: 300px;
+  /* 422px; */
+  height: 100px;
+  background:#EEE8AA;
+
+  margin: 12px ;
+  font-size: 22px;
+  font-weight: bolder;
+  color: grey;
+}
+
+/* Игрbi */
+.gbtn {
+  color: black;
+  width: auto;
+  height: auto;
+  border: solid 2px color #555;
+  border-radius: 10px;
+  background-color: #2F4F4F;
+  padding: 10px;
+
+  /* display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-auto-rows: auto;
+  gap: auto; */
+
+  display: flex;
+  flex-flow: wrap;
+
+  /* justify-content: space-between; */
+  align-items: auto ;
+
+}
+.g1btn {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-auto-rows: auto;
+  gap: auto;
+
+}
+.g2btn {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-auto-rows: auto;
+  gap: auto;
+
+}
+.g3btn {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-auto-rows: auto;
+  gap: auto;
+
+}
+.g4btn {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-auto-rows: auto;
+  gap: auto;
+
+}

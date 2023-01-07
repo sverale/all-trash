@@ -1,0 +1,100 @@
+// var x=1;    var x=[{a:1,b:2},{a:12,b:22}]
+// x=x+1;
+// if
+// for (var i = 0; i < array.length; i++) {
+//   array[i]
+// }
+// function
+// drawImage
+
+
+
+  platforms.forEach((platform) => {
+      if (
+        player.position.y + player.height
+        <= platform.position.y && player.position.y
+        + player.height + player.velocity.y >=
+        platform.position.y && player.position.x +
+        player.width >= platform.position.x &&
+        player.position.x <= platform.position.x +
+        platform.width) {
+        player.velocity.y = 0
+        }
+      })
+
+
+
+
+// import platform from 'plat.png'
+const canvas = document.querySelector('canvas');
+const context = canvas.getContext('2d');
+
+canvas.width = 500
+canvas.height = 576     /*innerHeight*/
+
+
+const gravity = 1.5
+
+
+
+
+
+
+
+
+
+
+
+
+  addEventListener("keydown", ({keyCode}) => {
+      switch (keyCode) {
+      case 65:
+        console.log('left')
+        keys.left.pressed = true
+        break
+
+      case 83:
+        console.log('down')
+        break
+
+      case 68:
+        console.log('right')
+        keys.right.pressed = true
+        break
+
+      case 87:
+        console.log('up')
+        player.velocity.y -= 20
+        break
+
+      }
+
+      console.log(keys.right.pressed)
+    })
+
+    addEventListener("keyup", ({keyCode}) => {
+    switch (keyCode) {
+      case 65:
+        console.log('left')
+        keys.left.pressed = false
+        break
+
+      case 83:
+        console.log('down')
+        break
+
+      case 68:
+        console.log('right')
+        keys.right.pressed = false
+        break
+
+      case 87:
+        console.log('up')
+        player.velocity.y -= 20
+        break
+
+    }
+    console.log(keys.right.pressed)
+    })
+
+    
